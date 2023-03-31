@@ -1,0 +1,59 @@
+.container {
+  background-image: linear-gradient(rgb(219, 57, 84), rgb(187, 115, 127));
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  color: rgb(236, 44, 76);
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-weight: bold;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.firstName_con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondName_con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.names {
+  background-color: rgb(214, 210, 210);
+  border: 1px solid rgb(92, 90, 90);
+  border-radius: 10px;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
